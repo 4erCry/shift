@@ -1,0 +1,69 @@
+/* Задание 1 */
+body {
+  background: linear-gradient(45deg,  #36c28D 25%, transparent 25%) 0 0 / 120px 120px,
+              linear-gradient(135deg, #36c28D 25%, transparent 25%) 0 0 / 120px 120px,
+              linear-gradient(225deg, #36c28D 25%, transparent 25%) 0 0 / 120px 120px,
+              linear-gradient(315deg, #36c28D 25%, transparent 25%) 0 0 / 120px 120px;
+  background-color: #FFA500FF;
+}
+
+/* Задание 2 */
+.clowns{
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  /*justify-content: space-between;*/
+}
+
+.item {
+  flex: auto;
+  min-width: 80px;
+  padding: 16px;
+  margin-top: 16px;
+  border: 1px solid var(--tomato);
+  border-radius: 10px;
+  background-color: var(--yellow);
+  text-align: center;
+}
+/* Конец */
+
+
+
+
+
+
+
+
+
+:root {
+  --yellow: #ffc600;
+  --tomato: #FF6347;
+  --black: #272727;
+  --rainbow-gradient: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: var(--black);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  padding: 32px;
+}
+
+.shift-container {
+  color: white;
+  font-size: 120px;
+}
