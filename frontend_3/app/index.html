@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Paint2d</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script type="module" src='js/main.mjs'></script>
+</head>
+
+<body>
+    <h1>ШИФТ</h1>
+    <h2>Задание 3</h2>
+    <div id="paint2d">
+      <canvas width=1200, height=700></canvas>
+    
+      <form class="toolbar" onsubmit="return false">          
+          <input type="radio" name="tool" id="line_tool" value="line" checked>
+          <label for="line_tool" class="action-button green">Кисть</label>
+
+          <input type="radio" name="tool" id="circle_tool" value="circle">          
+          <label for="circle_tool" class="action-button green">Круг</label>
+
+          <input type="color" name="color">
+
+          <button class="action-button blue clear">Очистить</button>
+      </form>
+    </div>
+</body>
+
+</html>
